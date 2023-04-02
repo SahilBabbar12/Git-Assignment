@@ -15,7 +15,7 @@ public class Main {
         System.out.println("age: "+person.getAge());
 
 
-        if(person.checkAge())
+        if(person.isPersonAdult())
             System.out.println("person is adult");
         else
             System.out.println("Person is not adult");
