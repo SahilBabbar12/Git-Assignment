@@ -14,7 +14,8 @@ public class Main {
         System.out.println("name: "+person.getName());
         System.out.println("age: "+person.getAge());
 
-
+        // if(person.checkAge()) previous typo mistake.
+        
         if(person.isPersonAdult())
             System.out.println("person is adult");
         else

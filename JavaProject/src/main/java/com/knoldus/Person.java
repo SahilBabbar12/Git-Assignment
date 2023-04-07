@@ -25,8 +25,13 @@ public class Person {
     public void setAge(Integer age) {
         this.age = age;
     }
+
+    /* method that either returns true or false indicating whether age is greater than 18 or not.
+       boolean checkAge(){ previous typo mistake. */
+    
     // method that returns true or false indicating whether person is adult or not.
     boolean isPersonAdult(){
+
         if(age>=18){
             return true;
         }
