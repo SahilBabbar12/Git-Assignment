@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-       
+
         Person person = new Person("sahil",23);
         
         System.out.println("name: "+person.getName());
